@@ -18,4 +18,11 @@ for (let i = 0, i < 3, i++) {
 }
 
 
-
+function returnNeighboringNumbers(num) {
+    let arr = [];
+    for (let i = 1; i <= 3; i++) {
+        arr[i-1] = num;
+    }
+    return arr;
+}
+returnNeighboringNumbers(5);
